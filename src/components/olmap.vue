@@ -5,10 +5,11 @@
 </template>
 
 <script>
-import "ol/ol.css"
+// import "ol/ol.css"
 import { Map, View } from "ol"
 import mapconfig from '../config/mapconfig'
 export default {
+  name: 'WMS',
   data() {
     return {
       map: null
@@ -32,7 +33,7 @@ export default {
 <style>
 #map{height:100%;}
 /*隐藏ol的一些自带元素*/
-.ol-attribution,.ol-zoom { display: none;}
+/* .ol-attribution,.ol-zoom { display: none;} */
 
 </style>
 

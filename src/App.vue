@@ -1,27 +1,32 @@
 <template>
   <div id="app">
-    <olmap />
+    <!-- <OlMap/> -->
+    <Content /> 
   </div>
 </template>
 
 <script>
-import olmap from './components/olmap.vue'
-
+// import OlMap from './components/olmap.vue'
+import Content from './Content'
 export default {
   name: 'app',
   components: {
-    olmap
+    // OlMap,
+    Content
   }
 }
 </script>
 
 <style>
-*{padding:0; margin:0;}
-html,body{
-  height: 100%;
-}
+@import './assets/css/index.css' ;
+
 #app {
-  height: 100%;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 0px;
 }
 </style>
 
