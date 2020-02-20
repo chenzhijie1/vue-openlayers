@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <!-- <OlMap/> -->
+    <div class="sidebar">
+      <Sidebar />
+    </div>
+    <!--右侧内容动态加载-->
     <Content /> 
   </div>
 </template>
 
 <script>
+import Sidebar from './Sidebar'
 // import OlMap from './components/olmap.vue'
 import Content from './Content'
 export default {
   name: 'app',
   components: {
-    // OlMap,
+    Sidebar,
     Content
   }
 }

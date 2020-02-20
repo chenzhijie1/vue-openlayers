@@ -1,23 +1,19 @@
 <template>
   <div id="app">
     <!-- 左侧导航 -->
-    <div class="sidebar">
+    <!-- <div class="sidebar">
       <Sidebar /> 
-    </div>
+    </div> -->
    <!-- 右侧内容 动态加载-->
     <div class="right-content">
-      <!-- <router-view/>  -->
-      <keep-alive>
-         <router-view v-if="$route.meta.keepAlive"/> 
-      </keep-alive>
-        <router-view v-if="!$route.meta.keepAlive"/> 
+     <router-view/>
     </div>
     
   </div>
 </template>
 
 <script>
-import Sidebar from './Sidebar'
+// import Sidebar from './Sidebar'
 
 export default {
   data(){
@@ -26,7 +22,7 @@ export default {
     }
   },
   components:{
-    Sidebar
+    // Sidebar
   }
 }
 </script>
