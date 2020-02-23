@@ -15,9 +15,9 @@ export default {
     return {
       title:'列表页',
       items:[
-          {title:'百度地图',url:'/olmap',icon:'icon-jia'},
-          {title:'StreetMap',url:'/olmap2',icon:'icon-jiazheng'},
-          {title:'StreetMap',url:'/olmap3',icon:'icon-jiazheng'}
+          {title:'Ol-WMS',url:'/olmap',icon:'icon-jia'},
+          {title:'Ol-WFS',url:'/olmap2',icon:'icon-Twitter'},
+          {title:'StreetMap',url:'/olmap3',icon:'icon-yilianjie'}
 
       ]
     }
