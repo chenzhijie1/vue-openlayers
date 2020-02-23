@@ -31,7 +31,10 @@ export default {
 </script>
 
 <style>
-#map1{height:1000px;width:1000px;}
+#map1{
+  height:100%;
+  width:100%
+  }
 /*隐藏ol的一些自带元素*/
 /* .ol-attribution,.ol-zoom { display: none;} */
 

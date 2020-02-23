@@ -33,7 +33,8 @@ body,html{
 }
 .right-content {
   margin-left: 200px;
-  padding:20px;
+  padding:0px;
+  height:100%
 }
 .sidebar> ul {
   height: 100%;
