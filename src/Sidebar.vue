@@ -17,8 +17,7 @@ export default {
       items:[
           {title:'百度地图',url:'/olmap',icon:'icon-jia'},
           {title:'StreetMap',url:'/olmap2',icon:'icon-jiazheng'},
-          {title:'StreetMap',url:'/olmap3',icon:'icon-jiazheng'},
-          {title:'StreetMap',url:'/olmap4',icon:'icon-jiazheng'}
+          {title:'StreetMap',url:'/olmap3',icon:'icon-jiazheng'}
 
       ]
     }

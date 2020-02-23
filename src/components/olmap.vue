@@ -1,5 +1,5 @@
 <template>
-    <div id="map" ref="rootmap">
+    <div id="map1" ref="rootmap">
 
     </div>
 </template>
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style>
-#map{height:100%;}
+#map1{height:1000px;width:1000px;}
 /*隐藏ol的一些自带元素*/
 /* .ol-attribution,.ol-zoom { display: none;} */
 
