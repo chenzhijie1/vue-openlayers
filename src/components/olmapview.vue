@@ -16,5 +16,5 @@ export default {
 </script>
 
 <style>
-#map{height:800px;width:1000px;}
+#map{height:100%;;width:100%;}
 </style>

@@ -1,17 +1,18 @@
 import Vue from 'vue'
 import App from './App.vue'
-import WMS from './components/olmap.vue'
-import WFS from './components/olmap2.vue'
-import TEST from './components/olmap3.vue'
+import WMS from './components/OlMapWMS.vue'
+import WFS from './components/OlMapWFS.vue'
+import OlMap from './components/OpenStreetMap.vue'
+import store from './store'
 import VueRouter from 'vue-router'
 import './assets/font/iconfont.css'
 Vue.config.productionTip = false
 Vue.use(VueRouter)
 
 const routes = [  
-  { path: '/olmap', component: WMS },
-  { path: '/olmap2', component: WFS },
-  { path: '/olmap3', component: TEST }
+  { path: '/OlMapWMS', component: WMS },
+  { path: '/OlMapWFS', component: WFS },
+  { path: '/OpenStreetMap', component: OlMap }
 ]
 
 const router = new VueRouter({
@@ -20,5 +21,6 @@ const router = new VueRouter({
 new Vue({
   el: '#app',
   router,
+  store,
   render: h => h(App),
 }).$mount('#app')
