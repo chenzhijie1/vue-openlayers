@@ -17,7 +17,10 @@ export default {
       items:[
           {title:'Ol-WMS',url:'/OlMapWMS',icon:'icon-jia'},
           {title:'Ol-WFS',url:'/OlMapWFS',icon:'icon-Twitter'},
-          {title:'StreetMap',url:'/OpenStreetMap',icon:'icon-yilianjie'}
+          {title:'StreetMap',url:'/OpenStreetMap',icon:'icon-yilianjie'},
+          {title:'Buffer',url:'/OlMapShow',icon:'icon-yilianjie'},
+          {title:'ArcgisDanymic',url:'/ArcgisDanymic',icon:'icon-Twitter'},
+          {title:'ArcgisFeatureService',url:'/ArcgisFeatureService',icon:'icon-jia'}
 
       ]
     }

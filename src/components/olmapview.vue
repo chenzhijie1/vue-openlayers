@@ -1,17 +1,19 @@
 <template>
-    <div>123<OlMap></div>
+    <div></div>
 </template>
 
 
 <script>
-import OlMap from '@components/olmap.vue'
+     
 export default {
     data(){
         return{
 
         }
     },
-    components:{OlMap}
+    components:{
+        
+    }
 }
 </script>
 

@@ -7,10 +7,7 @@
 				<div id="popup-content"></div>
 			</div>
 		</div>
-		
-
 	</div>
-
 </template>
 
 <script>
@@ -214,7 +211,7 @@
 <style>
 	.map {
 		width: 100%;
-		height: 800px;
+		height: 700px;
 	}
 
 
