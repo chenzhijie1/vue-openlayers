@@ -126,11 +126,11 @@
 
 				var vectorSource = new VectorSource();
 				var vector = new VectorLayer({
+					id:"draw-layer",
 					source: vectorSource,
 					style: this.styleFunction
-
 				});
-
+				
 
 				var raster = new TileLayer({
 					source: new OSM()
